@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>iridium.config</id>
+        <version>2.0.1.7071</version>
+        <authors>Philippe Leybaert</authors>
+        <owners>Philippe Leybaert</owners>
+        <licenseUrl>https://raw.githubusercontent.com/activa/iridium-config/master/LICENSE</licenseUrl>
+        <projectUrl>http://github.com/activa/iridium-config</projectUrl>
+        <iconUrl>http://www.iridiumdb.com/img/IconPlain64.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Configuration file handling library for .NET</description>
+        <tags>iridium configuration</tags>
+        <dependencies>
+            <dependency id="iridium.reflection" version="2.0.1.7071" />
+            <dependency id="Npgsql" version="4.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="src\Iridium.Config\bin\Release\netstandard1.0\*.dll" target="lib\netstandard1.0" />
+      <file src="src\Iridium.Config\bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+      <file src="src\Iridium.Config\bin\Release\net45\*.dll" target="lib\net45" />
+    </files>
+</package>
